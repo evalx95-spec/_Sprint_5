@@ -27,3 +27,15 @@ class LogoutLocators:
 
 class AdCreationLocators:
     MODAL_TITLE = (By.XPATH, "//h1[contains(text(), 'Чтобы разместить объявление, авторизуйтесь')]")
+    POST_AD_BUTTON = (By.XPATH, "//button[contains(text(), 'Разместить объявление')]")
+    TITLE_INPUT = (By.CSS_SELECTOR, "input[placeholder='Название']")
+    DESCRIPTION_TEXTAREA = (By.CSS_SELECTOR, "textarea[placeholder='Описание товара']")
+    PRICE_INPUT = (By.CSS_SELECTOR, "input[placeholder='Стоимость']")
+    DROPDOWN_CATEGORIES = (By.XPATH, '//input[@name="category"]/following-sibling::button[contains(@class, "dropDownMenu_arrowDown__pfGL1")]')
+    SELECT_CATEGORIES = (By.XPATH, "//span[text()='Авто']")
+    CITY_DROPDOWN = (By.XPATH, '//input[@name="city"]/following-sibling::button[contains(@class, "dropDownMenu_arrowDown__pfGL1")]')
+    SELECT_CITY = (By.XPATH, "//span[text()='Казань']")
+    RADIO_BUTTON = By.XPATH, '//input[@type="radio" and @value="Б/У"]'
+    PUBLISH_BUTTON = (By.XPATH, "//button[contains(text(), 'Опубликовать')]")
+    MY_ADS_BLOCK = (By.XPATH, "//h1[contains(text(), 'Мои объявления')]")
+    AD_TITLE = (By.XPATH, "//div[@class='card']//h2")    
