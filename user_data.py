@@ -2,7 +2,7 @@ class UserData:
 
     USER = {
         "email": "eva1x@yandex.ru" ,
-        "password": "Test123456" ,
+        "password": "test12345" ,
     }
 
     AD_DATA = {
